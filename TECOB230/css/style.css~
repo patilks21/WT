@@ -1,0 +1,32 @@
+h1
+{
+	color:red;
+	
+}
+p
+{
+	color:red;
+}
+label
+{
+	
+	color:green;	
+}
+button
+{
+	background:pink;
+	border-color:green;
+	border-radius:20px;
+		
+}
+.button:hover {background-color:red;}
+.button:active{
+	background-color:red;
+}
+input
+{
+	border-radius:20px;
+	border-color:green;
+	border-width:5px;
+	background:orange;
+}
