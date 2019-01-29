@@ -2,23 +2,24 @@
 	<head>
 		<title>form</title>
 		<link rel="stylesheet" href="/home/admin1/TECOB230/css/style.css">
+		<script type="text/javascript" src="val.js"></script>
 	</head>
 <body bgcolor="orange">
 	<h1>A step closer to a job</h1><hr>
 	<p>Fill the correct information</p>
-<form>
+<form name="f1" onsubmit="return validation()">
 	<label>First Name</label>
-	<input type="text" placeholder="abc"><br><br>
+	<input type="text" placeholder="abc" name="fn"><br><br>
 	<label> Last Name</label>
-	<input type="text"><br><br>
+	<input type="text" name="ln"><br><br>
 	<label>contact no </label>
-	<input type="text" placeholder="9876543210"><br><br>
+	<input type="text" placeholder="9876543210" name="cnt"><br><br>
 	<label>Email</label>
-	<input type="text" placeholder="abc@amail.com"><br><br>
+	<input type="text" placeholder="abc@amail.com" name="em"><br><br>
 	<label>date of birth</label>
-	<input type="date" placeholder="DD/MM/YYYY"><br><br>
+	<input type="date" placeholder="DD/MM/YYYY" name="dob"><br><br>
 	<label>Qualification</label>
-	<input type="text" placeholder="B.E. Computer"><br><br>
+	<input type="text" placeholder="B.E. Computer" name="qal"><br><br>
 	<label>Gender</label>	
 	<input type="radio" value="male" name="g">Male
 	<input type="radio" value="female" name="g">Female<br><br>
