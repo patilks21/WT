@@ -43,6 +43,11 @@
 			echo("<hr>username: ".$row["username"]."<br>password: ".$row["password"]."<br>");
 		}
 	}
+	else if($action=='update')
+	{
+		$sql="update log set password='$pass' where username='$uname';";
+		$conn->query($sql);
+		echo $action;
+	}
 ?>
-
 
