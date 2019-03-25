@@ -1,0 +1,28 @@
+<html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
+</head>
+<body ng-app='myapp'>
+        <div ng-controller="userCtrl">
+                <table border="1">
+                        <tr>
+                                <td>NAME</td>
+                                <td>PASSWORD</td>
+                        </tr>
+                        <tr ng-repeat="user in users">
+                                <td>{{user.Username}}</td>
+                                <td>{{user.Password}}</td>
+                        </tr>
+                 </table>
+         </div>
+         <script>
+         var fetch=angular.module('myapp',[]);
+         fetch.controller('userCtrl),['$scope','$http',function($scope,$http){
+                $http({method:'get',url:'file.php}).then(function successCallback(response){
+                        $scope.users=response.data;
+                });
+         }]);
+         </script>
+</body>
+</html>       
+
