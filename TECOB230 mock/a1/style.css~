@@ -14,6 +14,3 @@ width:50%;
 border-width:5px;
 border-type:solid;
 }
-td{
-text-align:center;
-}
