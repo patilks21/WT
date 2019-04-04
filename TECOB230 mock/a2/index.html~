@@ -1,0 +1,61 @@
+<html>
+	<head>
+		<title>Register</title>
+		<script type="text/javascript" src="val.js"></script>
+		
+	</head>
+	<body>
+		<form name="f">
+		<table border=0>
+			<tr>
+				<td>Name:</td>
+				<td><input type="text" name="name" placeholder="Full Name"></td>
+			</tr>
+			<tr>
+				<td>Password:</td>
+				<td><input type="password" name="pass1" placeholder="Password"></td>
+			</tr>
+			<tr>
+				<td>Confirm Password:</td>
+				<td><input type="password" name="pass2" placeholder="Password"></td>
+			</tr>
+			<tr>
+				<td>Date of Birh:</td>
+				<td><input type="date" name="dob"></td>
+			</tr>
+			<tr>
+				<td>E-mail:</td>
+				<td><input type="email" name="email" placeholder="E-mail"></td>
+			</tr>
+			<tr>
+				<td>Phone No.:</td>
+				<td><input type="text" name="phn" placeholder="Phone No."></td>
+			</tr>
+			<tr>
+				<td>Address:</td>
+				<td><input type="textarea" name="address" placeholder="Address"></td>
+			</tr>
+			<tr>
+				<td>Pin Code.:</td>
+				<td><input type="text" name="pin" placeholder="Pin Code."></td>
+			</tr>
+			<tr>
+				<td>State:</td>
+				<td><input type="text" name="state" placeholder="State"></td>
+			</tr>
+			<tr>
+				<td>Country:</td>
+				<td>
+					<select name="country">
+						<option value="india">India</option>
+						<option value="germany">Germany</option>
+						<option value="england">England</option>
+					</select>
+				</td>
+			</tr>
+		</table>
+		<input type="submit" value="Register" onclick="return val()">
+		</form>
+		
+	</body>
+</html>

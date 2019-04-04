@@ -1,0 +1,29 @@
+<html>
+	<head>
+		<title>Kaustubh Patil</title>
+		<script src="style.css"></script>
+	</head>
+	<body>
+	<div class="header">
+		<h2>KAUSTUBH PATIL</h2>
+		<marquee>A passonate Computer Engineer</marquee>
+		<hr>
+	</div>
+	<div>
+		<h4>Contact</h4>
+		<ul type="disc">
+		<li><label>E-mail : patilks21@gmail.com</label></li>
+		<li><label>Phone No. : 8793623191</label></li>
+		<li><label>Address : Sane Colony, Sane Chowk, kurdi-Chikhali Road, Chikhali, Pune 411062</label></li>
+		
+		</ul>
+		
+	</div>
+	<hr>
+	<div>
+		<a href="index.html"><input type="button" value="Home"></a>
+		<a href="profile.html"><input type="button" value="Profile"></a>
+		<a href="#"><input type="button" value="Contact"></a>
+	</div>
+	</body>
+</html>

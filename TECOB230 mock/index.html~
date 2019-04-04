@@ -1,0 +1,31 @@
+<html>
+	<head>
+		<title>Kaustubh Patil</title>
+		<link rel="stylesheet" href="style.css">
+	</head>
+	<body>
+	<div class="header">
+		<h2>KAUSTUBH PATIL</h2>
+		<marquee>A passonate Computer Engineer</marquee>
+		<hr>
+	</div>
+	<div>
+		<h4>Personal Details:</h4>
+		<ul>
+		<li><label>Name : Kaustubh Sanjay Patil</label></li>
+		<li><label>Gender : Male</label></li>
+		<li><label>Date of Birth : 21/08/1998</label></li>
+		<li><label>E-mail : patilks21@gmail.com</label></li>
+		<li><label>Phone No. : 8793623191</label></li>
+		<li><label>Address : Sane Colony, Sane Chowk, kurdi-Chikhali Road, Chikhali, Pune 411062</label></li>
+		</ul>
+	</div>
+	<hr>
+	<div>
+		<a href="#"><input type="button" value="Home"></a>
+		<a href="profile.html"><input type="button" value="Profile"></a>
+		<a href="contact.html"><input type="button" value="Contact"></a>
+	</div>
+	</body>
+</html>
+
