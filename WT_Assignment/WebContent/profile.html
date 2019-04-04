@@ -1,0 +1,119 @@
+<html>
+	<head>
+		<title>Kaustubh Patil</title>
+		<link rel="stylesheet" href="style.css">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<!---//End-css-style-switecher----->
+
+	   <script type="text/javascript">
+			
+$(document).ready(function () {
+    $('a[data-toggle="tab"]').on('show.bs.tab', function (e) {
+        localStorage.setItem('activeTab', $(e.target).attr('href'));
+    });
+    var activeTab = localStorage.getItem('activeTab');
+    if (activeTab) {
+        $('#myTab a[href="' + activeTab + '"]').tab('show');
+    }
+});
+		</script>
+	</head>
+	<body>
+	<div class="header">
+		<h2>KAUSTUBH PATIL</h2>
+		<marquee>A passonate Computer Engineer</marquee>
+		<hr>
+	</div>
+	<div class="content">
+	<div class="academic">
+		<h4>Academic Record:</h4>
+		<table border=2>
+			<tr>
+				<th>Degree</th>
+				<th>School/College</th>
+				<th>Percentage</th>
+				<th>Year of Passing</th>
+			</tr>
+			<tr>
+				<td>Computer Engineering</td>
+				<td>PCCOE</td>
+				<td>75.5</td>
+				<td>2020</td>
+			</tr>
+			<tr>
+				<td>HSC</td>
+				<td>Amrita Jr. College</td>
+				<td>82.46</td>
+				<td>2016</td>
+			</tr>
+			<tr>
+				<td>SSC</td>
+				<td>SPM English Medium School</td>
+				<td>90.80</td>
+				<td>2014</td>
+			</tr>
+		</table>
+	</div>
+	<hr>
+	<h4>SKILLS</h4>
+			<div class="bs-example">
+    <ul class="nav nav-tabs" id="Ul1">
+        <li class="active"><a data-toggle="tab" href="#reference1">Technical Skills</a></li>
+        <li><a data-toggle="tab" href="#reference2">Soft Skills</a></li>
+    </ul>
+    <div class="tab-content">
+        <div id="reference1" class="tab-pane fade in active">
+            <h3>Technical Skills</h3>
+            <div  class="contact-grids">
+             <div class="col-md-6 contact-left">
+                        <ul>
+                        	<li>C++</li>
+							<li>JAVA</li>
+							<li>Python</li>
+							<li>Web Development</li>
+							<li>.NET</li>
+                        </ul>
+                         
+              </div>
+              
+        </div>
+        </div>
+        <div id="reference2" class="tab-pane fade">
+            <h3>Soft Skills</h3>
+            <div  class="contact-grids">
+             <div class="col-md-6 contact-left">  
+             		<ul>                      
+                        <li>Fluent Speaker</li>
+						<li>Team Player</li>
+						<li>Self Motivated</li>
+						<li>Pro-active</li>
+						<li>Confident</li>
+					</ul>
+              </div>
+             
+        </div>
+        </div>
+        
+        </div>
+        </div>
+	
+	
+	<br>
+	<hr>
+	<div class="row"></div>
+	<div class ="project">
+		<h4>Project Details</h4>
+		<h5>E-Voting Using Blockchain</h5>
+		<p>A revolutionary new age Voting System developed using the blockchain technology to provide efficient and secure voting system which provides confidence to the voter and gives detailed analysis of the voting</p>
+	</div>
+	<hr>
+	<div>
+		<a href="index.html"><input type="button" value="Home"></a>
+		<a href="#"><input type="button" value="Profile"></a>
+		<a href="contact.html"><input type="button" value="Contact"></a>
+	</div>
+	</div>
+	</body>
+</html>
